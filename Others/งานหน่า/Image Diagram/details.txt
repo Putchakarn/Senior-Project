@@ -1,0 +1,61 @@
+static HelpPlace[] helpPlacesArray = {
+				new HelpPlace("1", "Maharaj Nakorn Chiang mai Hospital",
+						"110 Suthep Rd, Mueang Chiang Mai District, Chiang Mai",
+						"053-947700",
+						18.789602, 98.974209),
+				new HelpPlace("2", "Lanna Hospital",
+						"Chang Phuak Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand",
+						"053-999758",
+						18.812723, 98.991151),
+				 };
+
+
+Maharaj Nakorn Chiang mai Hospital
+110 Suthep Rd, Mueang Chiang Mai District, Chiang Mai
+053-947700
+18.789602, 98.974209
+
+Lanna Hospital
+Chang Phuak Amphoe Mueang Chiang Mai, Chang Wat Chiang Mai 50300, Thailand
+053-999758
+18.812723, 98.991151
+
+Lampang Hospital
+Tambon Phrabat, Amphoe Mueang Lampang, Chang Wat Lampang 52000, Thailand
+054-237400
+18.285378, 99.506305
+
+Mae Lao Hospital
+Pa Ko Dam, Mae Lao District
+Chiang Rai, Thailand
+053-603100
+19.772528, 99.731303
+
+Kriangkrai Konlakan Garage
+7/2, See Ping Mueang Road, Tambon Chang Khlan, Amphoe Mueang, Chiang Mai, 50100
+18.771195, 98.983062
+Thailand
+
+Chang Phueak Police Station
+Mueang Chiang Mai District, Chiang Mai, Thailand
+18.818822, 98.975520
+
+Muang Chiang Mai Police Station
+Si Phum Mueang Chiang Mai District, Chiang Mai, Thailand
+053-276040
+18.788341, 98.984755
+
+Chiang Rai Police Station
+Rattanakeat Road, Mueang Chiang Rai, Chiang Rai, 57000
+Tel: 053 711 444
+19.912221, 99.832526
+
+Ruangchai Yon Garage
+Saraphi District, Chiang Mai, ThailandAmphoe Muang Chiang Mai,Chiang Mai Outer Ring Road 50000
+18.750651, 99.055108
+
+1035
+Tambon Ban Sa, Amphoe Chae Hom,Lampang 52120, Thailand
+054-289118
+18.667303, 99.546996
+18.750646, 99.055118
