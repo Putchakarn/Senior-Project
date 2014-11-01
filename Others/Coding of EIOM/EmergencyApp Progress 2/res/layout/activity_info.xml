@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_info"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Help Place"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/design_phonecal_button"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="15dp"
+        android:text="Phone Call"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textLon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:gravity="right"
+        android:text="Latitude: "
+        android:textColor="#777777"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="address of help place"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textLon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textDetails"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:gravity="center"
+        android:text="Longitude: "
+        android:textColor="#777777"
+        android:textSize="18dp" />
+
+    
+
+    <TextView
+        android:id="@+id/textPhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textDetails"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Phone Number"
+        android:textSize="20dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/call_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp" />
+    
+</RelativeLayout>

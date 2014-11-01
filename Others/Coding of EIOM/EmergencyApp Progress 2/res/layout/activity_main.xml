@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE4B5"
+    android:orientation="vertical"
+    tools:context=".SearchingHelpPlaces" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_linear"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="156dp"
+            android:layout_height="37dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_online"
+            android:minHeight="35dp"
+            android:shadowColor="#CC0000"
+            android:textSize="12sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="156dp"
+            android:layout_height="37dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_offline"
+            android:minHeight="35dp"
+            android:shadowColor="#CC0000"
+            android:textSize="12sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/searching"
+            android:layout_width="48dp"
+            android:layout_height="37dp"
+            android:background="@drawable/selector_button_search"
+            android:minHeight="35dp"
+            android:shadowColor="#CC0000"
+            android:textSize="12sp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+    <ViewSwitcher
+        android:id="@+id/viewswitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <fragment
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                class="com.google.android.gms.maps.SupportMapFragment" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ToggleButton
+                    android:id="@+id/button_host"
+                    android:layout_width="0dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_button_hospital" 
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/button_highway"
+                    android:layout_width="0dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_button_highway" 
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/button_police"
+                    android:layout_width="0dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_button_police" 
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/button_garage"
+                    android:layout_width="0dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_button_garage"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ViewSwitcher>
+
+</LinearLayout>
