@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ProjectTreeState projectID="l.ZuEaKFS_nigANH" projectPath="C:\Users\gii guide\Documents\Senior-Project\Others\Server Part\Software_Design_Server_Part-Emergency Information On Mobile-V.1.0.vpp">
-	<TreeState name="ModelRepository" viewX="0" viewY="0"/>
-	<TreeState name="DiagramNavigator" viewX="0" viewY="360">
+	<TreeState name="ModelRepository" viewX="0" viewY="0">
+		<ExpandedPath>ModelRepository</ExpandedPath>
+	</TreeState>
+	<TreeState name="DiagramNavigator" viewX="0" viewY="0">
 		<ExpandedPath>DiagramNavigator</ExpandedPath>
 		<ExpandedPath>DiagramNavigator,UML Diagrams</ExpandedPath>
 		<ExpandedPath>UseCaseDiagram</ExpandedPath>
 		<ExpandedPath>ClassDiagram</ExpandedPath>
 		<ExpandedPath>InteractionDiagram</ExpandedPath>
-		<SelectedPath>CommunicationDiagram</SelectedPath>
+		<ExpandedPath>ActivityDiagram</ExpandedPath>
+		<SelectedPath>UseCaseDiagram,3RUGDFKGAqFs9RDR</SelectedPath>
 	</TreeState>
-	<TreeState name="ClassBrowser" viewX="0" viewY="0"/>
-	<TreeState name="LogicalView" viewX="0" viewY="0"/>
+	<TreeState name="ClassBrowser" viewX="0" viewY="0">
+		<ExpandedPath>ClassBrowser</ExpandedPath>
+		<ExpandedPath>ClassBrowser,ClassBrowser</ExpandedPath>
+		<SelectedPath>ClassBrowser,ClassBrowser</SelectedPath>
+	</TreeState>
+	<TreeState name="LogicalView" viewX="0" viewY="0">
+		<SelectedPath>LogicalView</SelectedPath>
+	</TreeState>
 </ProjectTreeState>
